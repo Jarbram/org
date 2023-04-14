@@ -1,0 +1,31 @@
+.formulario{
+    display:flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.formulario form{
+    max-width: 80%;
+    background-color: #f7f7f7;
+    box-shadow: 7px 7px 15px rgba(0,0,0,0.08);
+    border-radius: 20px;
+    padding: 8px 100px;
+}
+
+.select{
+    width: 180px;
+}
+
+@media screen and (max-width: 768px){
+    .formulario form{
+        padding: 8px 20px;
+    }
+.formulario form {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 20px;}
+
+    
+}
+    
