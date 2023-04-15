@@ -2,7 +2,7 @@ import React from 'react'
 import './Colaborador.css'
 
 const Colaborador = (props) => {
-    const {name, puesto, foto, equipo} = props.datos
+    const {name, puesto, foto} = props.datos
     const {colorPrimario} = props
   return (
     <div className='colaborador' >
