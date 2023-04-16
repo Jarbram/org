@@ -1,18 +1,20 @@
 import React from 'react'
 import './Footer.css'
+import {RiFacebookBoxFill, RiInstagramFill} from 'react-icons/ri'
+import {GiOrganigram} from 'react-icons/gi'
 
 const Footer = () => {
-    return <footer className='footer' style={{ backgroundImage: "url(img/footer.png)" }}>
+    return <footer className='footer'>
         <div className='redes'>
             <a href='https://www.facebook.com/abraham.huacchillo/'>
-                <img src="img/facebook.png" alt='Facebook' />
+            <RiFacebookBoxFill className='logoRedes' alt='Facebook' />
             </a>
             <a href='https://www.instagram.com/abrahamhuacchillo/'>
-                <img src="img/instagram.png" alt='instagram' />
+            <RiInstagramFill className='logoRedes' alt='instagram' />
             </a>
         </div>
-        <img src='img/Logo.png' alt='org' />
-        <p>Desarrollado por Jarbram</p>
+        <GiOrganigram className='logo' alt='org' />
+        <p>Organizados en un solo lugar</p>
     </footer>
 }
 

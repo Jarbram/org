@@ -19,6 +19,10 @@
     font-weight: 600;
 }
 
+.logo{
+    font-size: 3rem;
+}
+
 .subtitulo{
     text-transform: uppercase;
 }

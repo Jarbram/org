@@ -1,6 +1,8 @@
 .colaborador{
     width: 250px;
     margin-bottom: 24px;
+    position: relative;
+
 
 }
 
@@ -42,4 +44,12 @@
     padding: 0 24px;
     font-weight: 400;
     margin: 0;
+}
+
+.eliminar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    color: #FFFFFF;
 }

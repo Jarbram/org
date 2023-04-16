@@ -1,11 +1,12 @@
 import React from 'react'
 import './MiOrg.css'
+import {BiAddToQueue} from 'react-icons/bi'
 
 const MiOrg = (props) => {
   return (
     <div className='org-container'>
         <h3> Mi Organización</h3>
-        <img src="img/add.png" alt="add" onClick={props.changeShowForm} />
+        <BiAddToQueue className='add' onClick={props.changeShowForm} />
     </div>
   )
 }
